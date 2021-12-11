@@ -1,0 +1,171 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.title {
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.header {
+    background-image: url(../images/bg/header\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header_inner {
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 10px 40px;
+}
+
+
+
+.header_subtitle {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: auto;
+}
+
+.header_title {
+    font-size: 64px;
+    line-height: 87px;
+    font-weight: 700;
+}
+
+.header_title.heading--2 {
+    display: block;
+    font-size: 42px;
+    line-height: 57px;
+}
+
+
+.btn_arrow,
+.btn_circle {
+    transition: all .2s;
+}
+
+.btn {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.btn:hover .btn_circle {
+    fill: #A9A32A;
+
+
+}
+
+.btn:hover .btn_arrow {
+    transform: scaleX(1.15);
+
+}
+
+.header_btn {
+    margin-bottom: auto;
+    margin-top: 50px;
+}
+
+.header_btn-txt {
+    font-size: 18px;
+    line-height: 25px;
+    display: inline-block;
+    transform: translate(-57px, -17px);
+}
+
+.header_social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_social-link {
+    padding-left: 10px;
+}
+
+.header_social-img {
+    transition: all .2s;
+}
+
+.header_social-img:hover {
+    transform: scale(1.25);
+}
+
+
+
+
+
+
+.service {
+    margin-top: 150px;
+}
+
+.service_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_content {
+    max-width: 510px;
+    margin-right: 90px;
+}
+
+.service_box {
+    margin-bottom: 50px;
+}
+
+.service_box-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+
+}
+
+.service_box-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.service_img {
+    object-fit: cover;
+}
